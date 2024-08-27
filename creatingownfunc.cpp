@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int base, exponent;
 
 double power(double base, int exponent)
 {
@@ -10,18 +11,12 @@ double power(double base, int exponent)
     }
     return result;
 }
-void print_paw(double base, int exponent)
-{
-    double mypower = power(base, exponent);
-    cout << base << " raise to the power " << exponent << " is " << mypower;
-}
 int main()
 {
-    int base, exponent;
     cout << "What is the base";
     cin >> base;
     cout << "What is the exponent?";
     cin >> exponent;
-    print_paw(base, exponent);
-    print_paw(5, 3);
+    double mypower = power(base, exponent);
+    cout << mypower;
 }

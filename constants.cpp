@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int x = 5;       // 5 is constant
+    // int x = 5;       // 5 is constant
     const int x = 5; // this is symbolic constant
     enum
     {

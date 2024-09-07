@@ -7,4 +7,5 @@ int main()
     int number1 = 45;
     cout << number << endl;
     cout << oct << number1;
+    cout << number1;
 }

@@ -9,4 +9,6 @@ int main()
 
     //   greeting.replace(greeting.find("hell"), 4, "****");
     cout << greeting.substr(5, 2) << endl;
+
+    // greeting=="hi";is same as greeting.compare("hi")
 }

@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int factorial = 5;
+    int factorial = 7;
     int i = factorial - 1;
     while (i > 1)
     {

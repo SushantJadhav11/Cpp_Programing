@@ -1,4 +1,5 @@
-// true or false
+// true
+// or false
 // we can use true and false
 // we can also use 1 and 0 where any number other than 0 is true
 #include <iostream>

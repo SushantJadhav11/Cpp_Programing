@@ -7,7 +7,8 @@ int main()
         summer,
         spring,
         fall,
-        winter
+        winter,
+        new_season
     };
     seasons now = fall;
     switch (now)
@@ -21,6 +22,9 @@ int main()
         cout << "its fall";
         break;
     case spring:
+        break;
+    case new_season:
+        cout << "Its new_season!!!";
         break;
     }
 }
